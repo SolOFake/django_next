@@ -33,6 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     # Мои приложения
     'bboard.apps.BboardConfig',
+    'blog.apps.BlogConfig',
 
     # Приложения джанги
     'django.contrib.admin',
